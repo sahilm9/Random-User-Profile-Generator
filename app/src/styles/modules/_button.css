@@ -1,0 +1,21 @@
+.btn{
+    display: inline-block;
+    background: #aaa;
+    background: linear-gradient(#aaa, #eee);
+    border: solid 0.0625rem #999;
+    border-radius: 0.3125rem;
+    color: #000;
+    padding: 0.625rem 1.25rem;
+    margin: 0.625rem;
+    text-decoration: none;
+    text-shadow: 0 0.0625rem 0.125rem rgba(0,0,0,0.6);
+    outline:none;
+    font-weight:bold;
+}
+
+.btn:hover {
+    border-color: #888;
+    text-shadow: 0 0.0625rem 0.125rem rgba(0,0,0,0.9);
+    background: #eee;
+    background: linear-gradient(#eee, #aaa);
+}

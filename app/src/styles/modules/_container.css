@@ -1,0 +1,43 @@
+h1 {
+  text-align: center;
+  color: #353535;
+}
+.container {
+  background-color: #607d8b;
+  margin-top: 1.25rem;
+  border: 0.125rem solid #fff;
+  border-radius: 1.25rem;
+  width: 30%;
+  padding: 5% 5%;
+  margin: 0 auto;
+  text-align: center;
+  color:#fff;
+  box-shadow:0.625rem 0.625rem #333;
+}
+@media(max-width:768px){
+  .container{
+    width: 60%;
+  }
+}
+.avatar {
+  border-radius: 50%;
+  border: 0.1875rem solid #fff;
+  margin-top: 1.25rem;
+}
+
+@keyframes container{
+  from { top:0; left:0;}
+  to {top:1.25rem; left:1.25rem;}
+}
+
+.container{
+  position:relative;
+  animation-name: container;
+  animation-duration:5s;
+  animation-timing-function:ease-in-out;
+  animation-direction:alternate;
+  animation-iteration-count: infinite;
+}
+.details{
+  text-shadow: 0 0.0625rem 0.0625rem #0000FF, 0.0625rem 0.0625rem #FF0000;
+}
